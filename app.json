@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "moph-meet",
-    "slug": "moph-meet",
+    "name": "ton-practice-moph-meet",
+    "slug": "ton-practice-moph-meet",
+    "owner": "programmerton",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -47,9 +48,8 @@
         "origin": false
       },
       "eas": {
-        "projectId": "f18d5569-ecee-4f0d-826f-09aca784c16b"
+        "projectId": "0988f699-09dd-48cf-9b5e-228a609ed873"
       }
-    },
-    "owner": "siwawat.srisuk.dev"
+    }
   }
 }
