@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ton-practice-moph-meet",
+    "name": "intern-practice-moph-meet",
     "slug": "ton-practice-moph-meet",
     "owner": "programmerton",
     "version": "1.0.0",
@@ -18,7 +18,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.moph.mophmeet.app"

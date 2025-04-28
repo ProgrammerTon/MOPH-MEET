@@ -27,6 +27,13 @@ export default function TryWebView() {
           ref={ref}
           source={{ uri: 'https://moph-meet.moph.go.th/' }}
           style={{ flex: 1 }}
+          originWhitelist={['*']} 
+          javaScriptEnabled={true}
+          domStorageEnabled={true}
+          startInLoadingState={true}
+          mixedContentMode="always"
+          allowFileAccess={true}
+          allowUniversalAccessFromFileURLs={true}
         />
       </View>
     </SafeAreaView>

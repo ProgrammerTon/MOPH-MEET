@@ -36,7 +36,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="explore"
         options={{
-          title: 'Explore',
+          title: 'Example',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
@@ -44,6 +44,13 @@ export default function TabLayout() {
         name="mophmeet"
         options={{
           title: 'MOPHMeet',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="camera.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="page2"
+        options={{
+          title: 'Page2Test',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="camera.fill" color={color} />,
         }}
       />
